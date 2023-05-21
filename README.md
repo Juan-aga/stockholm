@@ -15,14 +15,15 @@ It uses Python with the following modules: sys, os, argparse, Fernet and pathlib
 ```
 usage: stockholm.py [-h] [-v] [-r KEY_FILE PATH] [-s]
 
-It is a program that encrypts anf decrypts the files on the computer
+This program encrypts and decrypts files on the computer.
 
 optional arguments:
   -h, --help            show this help message and exit
-  -v, --version         version of the program
+  -v, --version         display the program version
   -r KEY_FILE PATH, --reverse KEY_FILE PATH
-                        decrypt the files with key file in the path indicated
-  -s, --silent          silent mode
+                        decrypt the files using the 'KEY_FILE' in the
+                        specified 'PATH'
+  -s, --silent          enable silent mode
 ```
 ### Examples
 

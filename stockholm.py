@@ -17,10 +17,10 @@ def ft_stockholm():
 
 def ft_parser():
 	global args
-	parser = argparse.ArgumentParser(description="It is a program that encrypts anf decrypts the files on the computer")
-	parser.add_argument("-v", "--version", help="version of the program", action="store_true")
-	parser.add_argument("-r", "--reverse", metavar=("KEY_FILE", "PATH"), nargs=2, type=str,  help="decrypt the files with key file in the path indicated")
-	parser.add_argument("-s", "--silent", help="silent mode", action="store_true")
+	parser = argparse.ArgumentParser(description="This program encrypts and decrypts files on the computer.")
+	parser.add_argument("-v", "--version", help="display the program version", action="store_true")
+	parser.add_argument("-r", "--reverse", metavar=("KEY_FILE", "PATH"), nargs=2, type=str,  help="decrypt the files using the 'KEY_FILE' in the specified 'PATH'")
+	parser.add_argument("-s", "--silent", help="enable silent mode", action="store_true")
 	args = parser.parse_args()
 
 def ft_init_vars():
