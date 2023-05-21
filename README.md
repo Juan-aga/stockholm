@@ -2,15 +2,15 @@
 
 ## Description
 
-This program will encrypt files in the directory '/home/user/infection'. 
-Only affects files with extensions that were affected by Wannacry.
-It save the key to decrypt the files in a file called 'decrypt.key'.
+This program encryptis files in the directory '/home/user/infection'. 
+It only affects files with extensions that were affected by Wannacry.
+It saves the decryption key in a file called 'decrypt.key'.
 
-## Prerrequisits
+## Prerequisites
 
-It use Python with the modules: sys, os, argparse, Fernet and pathlib.
+It uses Python with the following modules: sys, os, argparse, Fernet and pathlib.
 
-## Use
+## Usage
 
 ```
 usage: stockholm.py [-h] [-v] [-r KEY_FILE PATH] [-s]
