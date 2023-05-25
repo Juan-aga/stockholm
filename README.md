@@ -13,7 +13,8 @@ It uses Python with the following modules: sys, os, argparse, Fernet and pathlib
 ## Usage
 
 ```
-usage: stockholm.py [-h] [-v] [-r KEY_FILE PATH] [-s]
+
+usage: stockholm.py [-h] [-v] [-r KEY_FILE PATH] [-s] [-p PATH]
 
 This program encrypts and decrypts files on the computer.
 
@@ -24,6 +25,8 @@ optional arguments:
                         decrypt the files using the 'KEY_FILE' in the
                         specified 'PATH'
   -s, --silent          enable silent mode
+  -p PATH, --path PATH  path to encrypt or were encrypted files are located
+
 ```
 ### Examples
 
